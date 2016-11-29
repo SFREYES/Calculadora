@@ -1,0 +1,127 @@
+html {
+	display: flex;
+	justify-content: center;
+}
+/*contenedor de visualización: bordes, posición, imagen de fondo, estilo letra.*/
+#Contenedor {
+
+		display: flex;
+		justify-content: center;
+	width: 400px;
+ 	border: 2px black solid;
+ 	/*text-align: right; */
+    position: relative; 
+    /*left: 23px; 
+    padding: auto;
+    font-family: "courier new"; 
+    overflow: hidden;*/
+    padding: auto;
+    background-image: url("http://1.bp.blogspot.com/-Hd20mhY765E/TVws7CFGFHI/AAAAAAAAXrI/knK6xJ2c6-g/s1600/www.BancodeImagenesGratuitas.com%2B%2528Disney_3%2529.jpg");
+
+   /* font-weight: bold;
+	font-size: 18px;
+	color: #ffffff;
+	align-content: center;*/
+
+
+             }
+
+#Resultado {
+	width:90em; 
+	height:35px;
+	border-radius: 4px;
+	border: 4px black;
+	font-family:Courier;
+	margin-top: 5px;
+	color: black;
+	display: flex; 
+	justify-content: center;
+	
+}
+
+
+#Números {
+	width: 55em;
+	height:09em;
+	text-align:center;
+	align-content: stretch;
+	display: flex;
+	flex-wrap: wrap;
+
+
+
+}
+.Num {
+	border-radius: 5px;
+	border: 2px solid #6495ED;
+	background-color: #BCD2EE;
+	height: 30px;
+	width: 40px;
+	text-align: center;
+	cursor: pointer;
+	flex-wrap: wrap;
+	font-size: 18px;
+}
+
+#Operaciones {
+	width: 80px;
+	height:140px;
+	flex-direction:column-reverse;
+	display: flex;
+	justify-content: space-between;
+
+
+}
+
+#Cero {
+width:48px;
+height:30px;
+}
+
+#Calcular {
+	width: 40px;
+}
+
+#Borrar {
+	align-self: center;
+	color:#FFFFFF;
+	border-color: #174E36;
+	background-color:#174E36;
+	width: 30PX;
+	height:30PX;
+}
+.Operac {
+	/*border-radius: 5px;
+	border: 2px solid #6495ED;
+	background-color: #BCD2EE;
+	height: 60px;
+	width: 60px;
+	margin: auto;
+	font size:80px;
+	text-align: center;
+	cursor: pointer;
+	flex-direction: column;*/
+	border-radius: 5px;
+	border: 2px solid #6495ED;
+	background-color: #BCD2EE;
+	height: 30px;
+	width: 40px;
+	margin: auto;
+	text-align: center;
+	cursor: pointer;
+	flex-wrap: wrap;
+	font-size: 18px;
+	right: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
